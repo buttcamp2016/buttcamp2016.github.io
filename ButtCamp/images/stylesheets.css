@@ -1,0 +1,38 @@
+body {
+	font-family: "Helvetica";
+	font-size: 14pt;
+	background-color: #FFF;
+
+	top:160px;
+	position: absolute;
+	padding: 30px;
+}
+
+#floatingnav {
+	position: fixed;
+   z-index: 10000;
+   top: 0px;
+   left: 0px;   
+   width: 100%;
+   height: 150px;
+   background: rgb(205, 236, 251);
+   padding: 10px;
+
+   font-family: "Georgia";
+   font-weight: "bold";
+   vertical-align: "middle";
+
+   -webkit-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.35);
+}
+
+.butts {
+	float: left;
+}
+
+
+.butts img {
+	object-fit: cover;
+    width: 366px;
+    height: 366px;
+    margin: 5px 5px 5px 5px;
+}
